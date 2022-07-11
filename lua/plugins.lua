@@ -68,7 +68,7 @@ return packer.startup(function(use)
   -- LSP
   use "neovim/nvim-lspconfig" -- enable LSP
   use "onsails/lspkind.nvim" -- pretty show for LSP
-  use "folke/trouble.nvim"
+  use {"folke/trouble.nvim",opt=true}
   use "simrat39/rust-tools.nvim"
 --  use "williamboman/nvim-lsp-installer" -- simple to use language server installer
   -- DAP

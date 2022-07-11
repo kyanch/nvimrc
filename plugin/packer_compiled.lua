@@ -200,8 +200,9 @@ _G.packer_plugins = {
     url = "https://github.com/akinsho/toggleterm.nvim"
   },
   ["trouble.nvim"] = {
-    loaded = true,
-    path = "/home/kyanc/.local/share/nvim/site/pack/packer/start/trouble.nvim",
+    loaded = false,
+    needs_bufread = false,
+    path = "/home/kyanc/.local/share/nvim/site/pack/packer/opt/trouble.nvim",
     url = "https://github.com/folke/trouble.nvim"
   },
   ["which-key.nvim"] = {
