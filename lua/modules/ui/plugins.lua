@@ -2,6 +2,7 @@ local ui = {}
 local conf = require("modules.ui.config")
 
 ui["kyazdani42/nvim-web-devicons"] = { opt = false }
+
 ui["ellisonleao/gruvbox.nvim"]={
 	opt = false,
 	config = function ()

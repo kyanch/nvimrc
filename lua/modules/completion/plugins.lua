@@ -6,6 +6,13 @@ completion["neovim/nvim-lspconfig"] = {
 	event = "BufReadPre",
 	config = conf.nvim_lsp,
 }
+completion['stevearc/aerial.nvim'] ={
+	opt = true,
+	after = "nvim-lspconfig",
+	config = function ()
+		require'aerial'.setup{}
+	end
+}
 completion["hrsh7th/nvim-cmp"] = {
 	config = conf.cmp,
 	event = "InsertEnter",
